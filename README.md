@@ -1,5 +1,9 @@
-wc -l slots-julio.html; sed -n '520,540p' slots-julio.html1057 slots-julio.html
-  <div id="win-flash">
+<francojuliofranco14-bit-patch-1>
+ Slot-rpg.machine
+&lt;!DOCTYPE html> &lt;html lang="es"> &lt;head>   &lt;meta charset="UTF-8">   &lt;title>Juego Slot Básico&lt;/title>   &lt;link rel="stylesheet" href="style.css"> &lt;/head> &lt;body>   &lt;h1>🎰 Slot Game&lt;/h1>   &lt;div id="slot">     &lt;div <class="reel" 
+<html>
+wc<-l <slots-julio.html>;< sed /-n '520,540p' slots-julio.html1057 slots-julio.html
+  <divid="win-flash">
     <...{
   "action": "create",
   "entity_name": "SlotsOrder",
@@ -30,5 +34,5 @@ wc -l slots-julio.html; sed -n '520,540p' slots-julio.html1057 slots-julio.html
       }
     },
     "type": "object"
-  }
-}
+ }< main/>
+{ 
