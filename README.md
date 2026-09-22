@@ -1,1 +1,19 @@
-https://ais-dev-7qbeq2bi6ml32p3xjtnpzr-495896499084.us-west2.run.app/
+https://ais-dev-7qbeq2bi6ml32p3xjtnpzr-495896499084.us-west2.run.app
+name: Run tests on staging
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/create-github-app-token@v3
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+      - uses: ./actions/staging-tests
+        with:
+          token: ${{ steps.app-token.outputs.token }}
